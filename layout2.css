@@ -23,18 +23,10 @@ footer {
     padding: 1rem;
 }
 
-#one {
+#one, #two {
     display: flex;
 }
 
-#nav-one {
-    order: -1;
-}
-
-#two {
-    display: flex;
-}
-
-#nav-two {
+#nav-one, #nav-two {
     order: -1;
 }
