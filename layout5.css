@@ -1,0 +1,37 @@
+/* navigation is horizontal
+main nav stays on screen while articles scroll
+article nav stays on screen while article is visible */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: -1;
+}
+
+footer {
+    order: 1;
+}
+
+#nav-articles {
+    padding: 0.5rem;
+    position: sticky;
+    top: 0px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#one, #two {
+    flex: 1;
+}
+
+#nav-one, #nav-two {
+    order: -1;
+    position: sticky;
+    top: 100px;
+}

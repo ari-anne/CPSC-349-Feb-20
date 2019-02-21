@@ -1,0 +1,15 @@
+header, footer{
+    background-color: cadetblue;
+}
+
+article {
+    background-color: coral;
+}
+
+#nav-articles {
+    background-color: grey;
+}
+
+#nav-one, #nav-two {
+    background-color: aquamarine;
+}

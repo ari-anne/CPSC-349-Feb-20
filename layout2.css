@@ -1,0 +1,40 @@
+/* navigation left-hand side */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: -1;
+}
+
+footer {
+    order: 1;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nav-articles {
+    padding: 1rem;
+}
+
+#one {
+    display: flex;
+}
+
+#nav-one {
+    order: -1;
+}
+
+#two {
+    display: flex;
+}
+
+#nav-two {
+    order: -1;
+}

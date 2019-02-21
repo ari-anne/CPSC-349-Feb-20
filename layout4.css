@@ -1,0 +1,36 @@
+/* articles not side by side, paragraphs run horizontally */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: -1;
+}
+
+footer {
+    order: 1;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-articles {
+    padding: 1rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#one, #two {
+    flex: 1;
+}
+
+#nav-one, #nav-two {
+    order: -1;
+}
